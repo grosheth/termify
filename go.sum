@@ -1,8 +1,13 @@
+github.com/Valgard/go-pcre v0.0.0-20200510215507-235e400e25e9 h1:0lG/MypDQyrv+g3GoApJwgAX8W7eUskpZaDcobxoHA4=
+github.com/Valgard/go-pcre v0.0.0-20200510215507-235e400e25e9/go.mod h1:dPmwfLc83w8+8tnYkKrPzon1X6EDhKQzcgeJw9cBm9g=
+github.com/Valgard/godotenv v0.0.0-20200511222744-8873b92a09c5 h1:wOsS79keYJAZ/JFhbeAukKOskg0YLy/K3T+d52ybI+M=
+github.com/Valgard/godotenv v0.0.0-20200511222744-8873b92a09c5/go.mod h1:8CKlwPUYW/JXcoFHqWYb44VlOjnrbdbUie/SOlwGaZE=
 github.com/bitly/go-simplejson v0.5.1 h1:xgwPbetQScXt1gh9BmoJ6j9JMr3TElvuIyjR8pgdoow=
 github.com/bitly/go-simplejson v0.5.1/go.mod h1:YOPVLzCfwK14b4Sff3oP1AmGhI9T9Vsg84etUnlyp+Q=
 github.com/bmizerany/assert v0.0.0-20160611221934-b7ed37b82869 h1:DDGfHa7BWjL4YnC6+E63dPcxHo2sUxDIu8g3QgEJdRY=
 github.com/bmizerany/assert v0.0.0-20160611221934-b7ed37b82869/go.mod h1:Ekp36dRnpXw/yCqJaO+ZrUyxD+3VXMFFr56k5XYrpB4=
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=
+github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/elazarl/goproxy v0.0.0-20231117061959-7cc037d33fb5 h1:m62nsMU279qRD9PQSWD1l66kmkXzuYcnVJqL4XLeV2M=
 github.com/elazarl/goproxy v0.0.0-20231117061959-7cc037d33fb5/go.mod h1:Ro8st/ElPeALwNFlcTpWmkr6IoMFfkjXAvTHpevnDsM=
 github.com/elazarl/goproxy/ext v0.0.0-20190711103511-473e67f1d7d2/go.mod h1:gNh8nYJoAm43RfaxurUnxr+N1PwuFV3ZMl/efxlIlY8=

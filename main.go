@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-  // "github.com/rapito/go-spotify/spotify"
+  "github.com/rapito/go-spotify/spotify"
 	"github.com/joho/godotenv"
 	"os"
 	"log"
@@ -10,22 +10,22 @@ import (
 
 
 func main() {
-  err := godotenv.Load()
+
+	err := godotenv.Load(".env")
   if err != nil {
     log.Fatal("Error loading .env file")
   }
-
-  clientid := os.Getenv("CLIENT_ID")
-  clientsecret := os.Getenv("CLIENT_SECRET")
+  clientid := os.getenv("CLIENT_ID")
+  clientsecret := os.getenv("CLIENT_SECRET")
 
   fmt.Println("vachier")	
-	// call_api()
+	call_api()
 }
 
-// func call_api() {
-//     
-//   spot := spotify.New(clientid,clientsecret)
-//   result, _ := spot.Get("albums/%s", nil, "0sNOF9WDwhWunNAHPD3Baj")
-//   
-//   fmt.Println(string(result))	
-// }
+func call_api() {
+    
+  spot := spotify.New(clientid,clientsecret)
+  result, _ := spot.Get("albums/%s", nil, "0sNOF9WDwhWunNAHPD3Baj")
+  
+  fmt.Println(string(result))	
+}
